@@ -1,4 +1,4 @@
-FROM node:v19.3.0
+FROM node:19.3.0
 WORKDIR /node-app
 ADD package*.json ./
 RUN npm install

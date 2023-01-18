@@ -17,7 +17,7 @@ pipeline {
 
         stage('Push to Docker Hub') {
             steps {
-                sh 'docker login --username $USERNAME --password $PASSWORD'
+                sh 'docker login --username beyghakymyar --password 7889'
                 sh 'docker push beyghakymyar/nodeapp:nodeapp_1.1'
             }
         }

@@ -12,6 +12,7 @@ pipeline {
 
         stage('Start Container') {
             steps {
+                sh 'docker rm -f nodeapi'
                 sh 'docker run -d -p 8088:4000 --name nodeapi beyghakymyar/nodeapp:nodeapp_1.1'
             }
         }

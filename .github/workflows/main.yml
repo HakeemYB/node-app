@@ -12,4 +12,4 @@ jobs:
 
       with:
         GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
-        DESTINATION_BRANCH: "master"
+        DESTINATION_BRANCH: "prod"
